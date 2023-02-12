@@ -12,7 +12,7 @@ pageobjectmanager pom = new pageobjectmanager(driver);
 
 @Given("User launch broser")
 public void user_launch_broser() {
-    browser_Launch1();
+    browser_Launch();
 }
 @Given("User navigate url")
 public void user_navigate_url() {

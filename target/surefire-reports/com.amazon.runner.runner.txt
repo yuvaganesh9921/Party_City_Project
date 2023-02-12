@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.amazon.runner.runner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.166 s <<< FAILURE! - in com.amazon.runner.runner
+runScenario(com.amazon.runner.runner)  Time elapsed: 2.443 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: Microsoft Edge failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+Host info: host: 'LAPTOP-HMLBATVJ', ip: '192.168.1.9'
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]
+
