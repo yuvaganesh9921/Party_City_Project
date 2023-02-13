@@ -1,8 +1,5 @@
 package com.amazon.setdefniation;
 
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Test;
-
 import base_class.Base_Class_Ipt2;
 import io.cucumber.java.en.Given;
 import pom.pageobjectmanager;
