@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Base_Class_Ipt2 {
 	static public WebDriver driver;
 	static public void browser_Launch() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvag\\New folder\\demo_sction\\src\\test\\resources\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resourse\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
