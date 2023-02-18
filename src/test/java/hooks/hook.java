@@ -12,6 +12,7 @@ public class hook extends Base_Class_Ipt2{
 	@Before
 	public void BeforeHook() {
 		System.out.println("am before hooks");
+		System.out.println("am before hooks");
 	}
 	@After
 	public void AfterHooks(Scenario scenario) {
